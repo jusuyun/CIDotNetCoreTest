@@ -35,7 +35,5 @@ namespace CIDITest
 
             app.UseMvc ();
         }
-
-        
     }
 }
