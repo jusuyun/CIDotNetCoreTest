@@ -14,7 +14,7 @@ namespace CIDITest.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "token", "value4" };
+            return new string[] { "regenerate", "token" };
         }
 
         // GET api/values/5
